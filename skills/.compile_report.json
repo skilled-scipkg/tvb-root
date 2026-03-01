@@ -1,0 +1,340 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "tvb-root",
+  "evidence": {
+    "core_skills": [
+      "tvb-root-tvb-documentation",
+      "tvb-root-inputs-and-modeling",
+      "tvb-root-build-and-install",
+      "tvb-root-api-and-scripting",
+      "tvb-root-simulation-workflows",
+      "tvb-root-getting-started"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/tvb-root-tvb-documentation.md",
+      "skills/.evidence/tvb-root-inputs-and-modeling.md",
+      "skills/.evidence/tvb-root-build-and-install.md",
+      "skills/.evidence/tvb-root-api-and-scripting.md",
+      "skills/.evidence/tvb-root-simulation-workflows.md",
+      "skills/.evidence/tvb-root-getting-started.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/tvb-root-api-and-scripting/SKILL.md",
+        "skills/tvb-root-build-and-install/SKILL.md",
+        "skills/tvb-root-getting-started/SKILL.md",
+        "skills/tvb-root-inputs-and-modeling/SKILL.md",
+        "skills/tvb-root-simulation-workflows/SKILL.md",
+        "skills/tvb-root-tvb-documentation/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/tvb-root-api-and-scripting/SKILL.md",
+        "skills/tvb-root-build-and-install/SKILL.md",
+        "skills/tvb-root-getting-started/SKILL.md",
+        "skills/tvb-root-inputs-and-modeling/SKILL.md",
+        "skills/tvb-root-simulation-workflows/SKILL.md",
+        "skills/tvb-root-tvb-documentation/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/tvb-root-api-and-scripting/SKILL.md",
+        "skills/tvb-root-api-and-scripting/references/source_map.md",
+        "skills/tvb-root-build-and-install/SKILL.md",
+        "skills/tvb-root-build-and-install/references/source_map.md",
+        "skills/tvb-root-developer-guide/SKILL.md",
+        "skills/tvb-root-developer-guide/references/doc_map.md",
+        "skills/tvb-root-developer-guide/references/source_map.md",
+        "skills/tvb-root-examples-and-tutorials/SKILL.md",
+        "skills/tvb-root-examples-and-tutorials/references/doc_map.md",
+        "skills/tvb-root-examples-and-tutorials/references/source_map.md",
+        "skills/tvb-root-getting-started/SKILL.md",
+        "skills/tvb-root-getting-started/references/source_map.md",
+        "skills/tvb-root-index/SKILL.md",
+        "skills/tvb-root-inputs-and-modeling/SKILL.md",
+        "skills/tvb-root-inputs-and-modeling/references/source_map.md",
+        "skills/tvb-root-simulation-workflows/references/source_map.md",
+        "skills/tvb-root-tvb-documentation/references/source_map.md",
+        "skills/tvb-root-tvb-framework/SKILL.md",
+        "skills/tvb-root-tvb-framework/references/doc_map.md",
+        "skills/tvb-root-tvb-framework/references/source_map.md",
+        "skills/tvb-root-tvb-storage/SKILL.md",
+        "skills/tvb-root-tvb-storage/references/doc_map.md",
+        "skills/tvb-root-tvb-storage/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/tvb-root-api-and-scripting/SKILL.md",
+        "skills/tvb-root-api-and-scripting/references/source_map.md",
+        "skills/tvb-root-build-and-install/SKILL.md",
+        "skills/tvb-root-build-and-install/references/source_map.md",
+        "skills/tvb-root-developer-guide/SKILL.md",
+        "skills/tvb-root-developer-guide/references/doc_map.md",
+        "skills/tvb-root-developer-guide/references/source_map.md",
+        "skills/tvb-root-examples-and-tutorials/SKILL.md",
+        "skills/tvb-root-examples-and-tutorials/references/doc_map.md",
+        "skills/tvb-root-examples-and-tutorials/references/source_map.md",
+        "skills/tvb-root-getting-started/SKILL.md",
+        "skills/tvb-root-getting-started/references/source_map.md",
+        "skills/tvb-root-index/SKILL.md",
+        "skills/tvb-root-inputs-and-modeling/SKILL.md",
+        "skills/tvb-root-inputs-and-modeling/references/source_map.md",
+        "skills/tvb-root-simulation-workflows/references/source_map.md",
+        "skills/tvb-root-tvb-documentation/references/source_map.md",
+        "skills/tvb-root-tvb-framework/SKILL.md",
+        "skills/tvb-root-tvb-framework/references/doc_map.md",
+        "skills/tvb-root-tvb-framework/references/source_map.md",
+        "skills/tvb-root-tvb-storage/SKILL.md",
+        "skills/tvb-root-tvb-storage/references/doc_map.md",
+        "skills/tvb-root-tvb-storage/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "tvb_documentation",
+      "dev_resources/docs",
+      "tvb_framework",
+      "tvb_library",
+      "tvb_storage",
+      "tvb_contrib"
+    ],
+    "docs_only": false,
+    "notes": [
+      "TVB is a multi-package monorepo; docs and source are split across tvb_documentation, framework, library, storage, and contrib.",
+      "Tutorial/demo material exists in both tvb_documentation and package-local demo folders.",
+      "Generator script received a minimal syntax fix to enable deterministic dry-run execution with explicit directories."
+    ],
+    "package_name": "tvb-root",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "tvb_framework/tvb",
+      "tvb_library/tvb",
+      "tvb_storage/tvb",
+      "tvb_contrib/tvb",
+      "tvb_bin/tvb_bin",
+      "tvb_build/tvb_build",
+      "tvb_deprecated"
+    ],
+    "test_dirs": [
+      "tvb_framework/tvb/tests",
+      "tvb_library/tvb/tests",
+      "tvb_storage/tvb/tests",
+      "tvb_contrib/tvb/contrib/tests",
+      "dev_resources/jmeter_tests"
+    ],
+    "tutorial_dirs": [
+      "tvb_documentation/tutorials",
+      "tvb_documentation/demos",
+      "tvb_framework/tvb/interfaces/command/demos",
+      "tvb_contrib/tvb/contrib/simulator/demos"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/tvb-root-tvb-root",
+  "run_id": "compile_20260301T022430870188Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "tvb-root-api-and-scripting",
+      "tvb-root-build-and-install",
+      "tvb-root-developer-guide",
+      "tvb-root-examples-and-tutorials",
+      "tvb-root-getting-started",
+      "tvb-root-index",
+      "tvb-root-inputs-and-modeling",
+      "tvb-root-simulation-workflows",
+      "tvb-root-tvb-documentation",
+      "tvb-root-tvb-framework",
+      "tvb-root-tvb-storage"
+    ],
+    "core_skill_ids": [
+      "tvb-root-tvb-documentation",
+      "tvb-root-inputs-and-modeling",
+      "tvb-root-build-and-install",
+      "tvb-root-api-and-scripting",
+      "tvb-root-simulation-workflows",
+      "tvb-root-getting-started"
+    ],
+    "deferred_gaps": [
+      "Determine whether legacy tvb_deprecated paths should remain in source maps or be excluded in final enrichment.",
+      "Audit overlap between tvb_documentation and component README docs to reduce duplicate routing text.",
+      "Assess whether non-pytest load tests in dev_resources/jmeter_tests need a separate performance-testing skill."
+    ],
+    "goal": "Generate and stabilize a docs-first TVB skill set with high-impact routing and then audit coverage/gaps.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Route user intents to the correct TVB subsystem skill",
+          "Prefer documentation-first lookup before source dive",
+          "Expose quick links for install, run, API, tutorials, and troubleshooting"
+        ],
+        "reason": "Central router is required to disambiguate framework vs library vs storage vs contrib workflows.",
+        "skill_id": "tvb-root-index",
+        "source_hints": [
+          "README.md",
+          "tvb_documentation/manuals",
+          "tvb_documentation/doc_site"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Editable install from monorepo",
+          "Pypi package install paths",
+          "Dependency/test extra setup"
+        ],
+        "reason": "Installation and environment setup are prerequisite for nearly all user tasks and commonly fail.",
+        "skill_id": "tvb-root-build-and-install",
+        "source_hints": [
+          "README.md",
+          "tvb_framework/README.rst",
+          "tvb_library/README.rst",
+          "tvb_build"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Launching simulations via framework and library paths",
+          "Input/output data flow and persistence expectations",
+          "Common run-time failure triage"
+        ],
+        "reason": "Core scientific value is simulation execution, so run/restart/output workflows must be first-class.",
+        "skill_id": "tvb-root-simulation-workflows",
+        "source_hints": [
+          "tvb_documentation/tutorials",
+          "tvb_documentation/demos",
+          "tvb_library/tvb",
+          "tvb_framework/tvb"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Key Python package entry points",
+          "REST and command interfaces",
+          "Script-level examples grounded in demos/tests"
+        ],
+        "reason": "Many agent tasks will require Python API usage and CLI scripting entry points.",
+        "skill_id": "tvb-root-api-and-scripting",
+        "source_hints": [
+          "tvb_framework/tvb/interfaces",
+          "tvb_library/tvb",
+          "tvb_framework/README_rest_client.rst"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Parallel execution knobs and constraints",
+          "Batch/cluster usage cues where available",
+          "Validation checks for performance-related configuration"
+        ],
+        "reason": "HPC and scaling guidance is high-impact for simulation cost/performance and often under-documented in defaults.",
+        "skill_id": "tvb-root-tvb-storage",
+        "source_hints": [
+          "tvb_documentation/manuals",
+          "tvb_framework/tvb",
+          "tvb_library/tvb"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "How to run framework/library/storage/contrib tests",
+          "Profile-specific test requirements",
+          "Frequent failure signatures and first-response checks"
+        ],
+        "reason": "Pass 3 audit depends on strong test and failure-triage pathways.",
+        "skill_id": "tvb-root-inputs-and-modeling",
+        "source_hints": [
+          "tvb_framework/tvb/tests",
+          "tvb_library/tvb/tests",
+          "tvb_storage/tvb/tests",
+          "tvb_contrib/tvb/contrib/tests",
+          "README.md"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "tvb-root-tvb-documentation",
+      "tvb-root-inputs-and-modeling",
+      "tvb-root-examples-and-tutorials",
+      "tvb-root-build-and-install",
+      "tvb-root-api-and-scripting",
+      "tvb-root-tvb-framework"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/tvb-root-tvb-root/skills/tvb-root-tvb-documentation/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/tvb-root-tvb-root/skills/tvb-root-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/tvb-root-tvb-root/skills/tvb-root-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/tvb-root-tvb-root/skills/tvb-root-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/tvb-root-tvb-root/skills/tvb-root-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/tvb-root-tvb-root/skills/tvb-root-tvb-framework/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "tvb-root-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "tvb-root-index",
+      "tvb-root-build-and-install",
+      "tvb-root-simulation-workflows",
+      "tvb-root-api-and-scripting",
+      "tvb-root-tvb-storage",
+      "tvb-root-inputs-and-modeling"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 11,
+    "source_inventory": {},
+    "source_links_total": 118,
+    "topic_skills": 10,
+    "warnings": []
+  }
+}
